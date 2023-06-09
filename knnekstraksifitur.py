@@ -5,7 +5,7 @@ import pandas as pd
 from tabulate import tabulate
 from scipy.stats import skew, kurtosis
 
-#ganti Apple dengan nama folder citra
+#change "unripe" to "ripe" for extracting each folder
 images = os.listdir('./unripe/')
 num_images = len(images)
 
