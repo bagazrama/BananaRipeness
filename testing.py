@@ -9,8 +9,8 @@ from warnings import simplefilter
 simplefilter(action='ignore', category=FutureWarning)
 
 # Load dataset
-dataset1 = pd.read_csv('gabungan.csv')
-dataset2 = pd.read_csv('testing.csv')
+dataset1 = pd.read_csv('csv/gabungan.csv')
+dataset2 = pd.read_csv('cs/testing.csv')
 
 X_train = dataset1.drop('kelas', axis=1)
 y_train = dataset1['kelas']
