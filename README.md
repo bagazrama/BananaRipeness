@@ -1,4 +1,4 @@
 # BananaRipeness
 le computer vision
-KNN method
+collaborators Ratih, Syarah and Me.
 
