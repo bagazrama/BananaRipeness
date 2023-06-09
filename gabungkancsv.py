@@ -3,7 +3,7 @@ import glob
 import pandas as pd
 
 # Mengatur direktori kerja
-os.chdir("./project banana ripeness/")
+os.chdir("./csv/")
 
 # Mencari semua file csv di jalur
 extension = "csv"
