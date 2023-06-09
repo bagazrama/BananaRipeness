@@ -10,7 +10,7 @@ simplefilter(action='ignore', category=FutureWarning)
 
 # Load dataset
 dataset1 = pd.read_csv('csv/gabungan.csv')
-dataset2 = pd.read_csv('cs/testing.csv')
+dataset2 = pd.read_csv('csv/testing.csv')
 
 X_train = dataset1.drop('kelas', axis=1)
 y_train = dataset1['kelas']
